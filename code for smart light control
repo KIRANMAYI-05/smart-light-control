@@ -1,0 +1,27 @@
+a code for which worked for tincker card simulation
+
+const int ldrPin = A0;    // LDR analog pin
+const int redLED = 3;     // Red LED pin
+const int blueLED = 4;    // Blue LED pin
+const int threshold = 500;
+
+void setup() {
+  pinMode(redLED, OUTPUT);
+  pinMode(blueLED, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int ldrValue = analogRead(ldrPin);
+  Serial.println(ldrValue);
+
+  if (ldrValue < threshold) {
+    digitalWrite(redLED, HIGH);
+    digitalWrite(blueLED, HIGH);
+  } else {
+    digitalWrite(redLED, LOW);
+    digitalWrite(blueLED, LOW);
+  }
+
+  delay(500);
+}
