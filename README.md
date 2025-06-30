@@ -115,3 +115,7 @@ Simple and cost-effective to implement.
 📌 Conclusion:
 This Smart Light Control System demonstrates a basic yet powerful automation concept using an LDR sensor and Arduino. By combining light sensing with microcontroller-based decision-making, this project showcases how embedded systems can bring smart functionality to everyday environments. Tinkercad’s simulation allows for risk-free design and testing, making it ideal for students, hobbyists, and prototyping teams alike.
 
+output shown
+
+![Image](https://github.com/user-attachments/assets/c4d3a3f0-a966-4f3c-a00a-f90e60d56b94)
+
